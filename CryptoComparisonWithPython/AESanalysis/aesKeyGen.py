@@ -1,18 +1,21 @@
 import timeit
 
 if __name__ == "__main__":
-    fp = open("AES.csv","w")
+    fp = open("AESkeyGen_new.csv","w")
     headerKeyGen = '''
 from Crypto.Random import get_random_bytes
     '''
     code16 = '''
-key = get_random_bytes(16)
+if __name__ == "__main__":
+    key = get_random_bytes(16)
     '''
     code24 = '''
-key = get_random_bytes(24)
+if __name__ == "__main__":
+    key = get_random_bytes(24)
     '''
     code32 = '''
-key = get_random_bytes(24)
+if __name__ == "__main__":
+    key = get_random_bytes(24)
     '''
 
 fp.writelines("keyGenAES(128),keyGenAES(192),keyGenAES(256)\n")
