@@ -15,7 +15,7 @@ if __name__ == "__main__":
     '''
     code32 = '''
 if __name__ == "__main__":
-    key = get_random_bytes(24)
+    key = get_random_bytes(32)
     '''
 
 fp.writelines("keyGenAES(128),keyGenAES(192),keyGenAES(256)\n")
