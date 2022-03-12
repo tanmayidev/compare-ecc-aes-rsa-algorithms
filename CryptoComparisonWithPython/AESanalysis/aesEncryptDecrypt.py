@@ -47,7 +47,7 @@ if __name__ == "__main__":
     cipherNew.decrypt(ciphertext)
     '''
 
-fp.writelines("EncryptDecrypt(128),EncryptDecrypt(192),EncryptDecrypt(256)\n")
+fp.writelines("EncryptDecryptAES(128),EncryptDecryptAES(192),EncryptDecryptAES(256)\n")
 encryptDecrypt128 = 0
 encryptDecrypt192 = 0
 encryptDecrypt256 = 0
