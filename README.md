@@ -1,5 +1,7 @@
 # **LoRa Technology Combined with ECC for encryption**
 
+### Check out lora-ecc-analysis branch to see progress of our work - [link](https://github.com/tanmayidev/lora-ecc/tree/lora-ecc/analysis)
+
 ## **Definitions:**
 * **LoRa** (Long Range) is a spread spectrum modulation technique derived from chirp spread spectrum (CSS) technology. Semtech's LoRa is a long range, low power wireless platform that has become the de facto wireless platform of Internet of Things (IoT).
 
